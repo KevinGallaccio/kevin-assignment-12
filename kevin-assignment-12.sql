@@ -123,6 +123,7 @@ GROUP BY c.customer_id, o.order_date_time;
 
 INSERT INTO `order` (`customer_id`, `order_date_time`) VALUES
 (2, '2014-09-11 10:50:00'); -- Order #3 from John Doe
+
 INSERT INTO `pizza_order` (`order_id`, `pizza_id`, `quantity`) VALUES
 (4, 2, 2),  -- Order #4: 2x Vegetarian Pizza
 (4, 1, 1);  -- Order #3: 1x Pepperoni Pizza
