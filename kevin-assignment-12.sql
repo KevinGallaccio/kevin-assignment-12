@@ -140,3 +140,5 @@ JOIN `pizza` p ON p.pizza_id = po.pizza_id
 GROUP BY c.customer_id, o.order_date_time;
 
 -- We can be sure that everything works perfectly and we have a result by date for each customer. ET VOILA !!
+
+-- test
